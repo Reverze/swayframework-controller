@@ -1,0 +1,16 @@
+{
+    "name": "rev/sway-framework-controller",
+    "description": "SwayFramework Controller",
+    "type": "sf-package",
+    "authors": [
+        {
+            "name": "Reverze",
+            "email": "hawkmedia24@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sway\\Component\\Controller\\": "src/"
+        }
+    }
+}
