@@ -1,0 +1,6 @@
+framework:
+    component.init:
+        controllerInvoker:
+            controller: Sway\Component\Controller\InvokerInit
+            require:
+                - httpd
